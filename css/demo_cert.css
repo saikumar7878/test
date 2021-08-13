@@ -1,0 +1,31 @@
+.container {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+.navbar {
+  position: relative;
+  padding: 15px 0;
+  background: #9b3d3d;
+}
+img {
+  width: 458px;
+  height: 636px;
+  margin-top: 15px;
+}
+.demo_cert {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* gap: 1rem; */
+}
+h1 {
+  text-align: center;
+  margin: 20px;
+  font-weight: 500;
+}
+@media (max-width: 1446px) {
+  .demo_cert {
+    justify-content: space-evenly;
+  }
+}
